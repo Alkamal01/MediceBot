@@ -25,7 +25,7 @@ charset-normalizer==3.4.0
 chroma-hnswlib==0.7.3
 chromadb==0.4.24
 click==8.1.7
-cohere==5.11.3
+cohere>=5.11.3
 coloredlogs==15.0.1
 crewai==0.76.9
 crewai-tools==0.13.4
@@ -66,7 +66,7 @@ google-crc32c==1.6.0
 google-generativeai==0.8.3
 google-resumable-media==2.7.2
 googleapis-common-protos==1.65.0
-googletrans==4.0.0rc1
+googletrans
 gptcache==0.1.44
 greenlet==3.1.1
 grpc-google-iam-v1==0.13.1
@@ -80,7 +80,7 @@ hstspreload==2024.12.1
 httpcore==0.9.1
 httplib2==0.22.0
 httptools==0.6.4
-httpx==0.13.3
+httpx
 httpx-sse==0.4.0
 huggingface-hub==0.26.2
 humanfriendly==10.0
