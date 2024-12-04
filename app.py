@@ -93,3 +93,23 @@ if st.sidebar.button("Get Diagnosis and Treatment Plan"):
         docx_file = generate_docx(result)
         download_link = get_download_link(docx_file, "diagnosis_and_treatment_plan.docx")
         st.markdown(download_link, unsafe_allow_html=True)
+
+# Footer Section
+st.markdown(
+    """
+    <hr>
+    <div style="text-align: center;">
+        <p>Built with ❤️ by <strong>Kamal Aliyu</strong></p>
+        <a href="https://github.com/Alkamal01" target="_blank">
+            <img src="https://img.icons8.com/material-outlined/24/github.png" alt="GitHub">
+        </a>
+        <a href="https://twitter.com/kaftandev" target="_blank">
+            <img src="https://img.icons8.com/material-outlined/24/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://linkedin.com/in/alkamal" target="_blank">
+            <img src="https://img.icons8.com/material-outlined/24/linkedin.png" alt="LinkedIn">
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
